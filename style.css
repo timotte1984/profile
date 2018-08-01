@@ -16,7 +16,7 @@ body{
 
 .list-no-bullet{
   list-style-type: none;
-  padding-left: 15px;
+  margin: auto;
 }
 
 #sidebar a {
@@ -49,6 +49,12 @@ body{
   display: inline-block;
   padding: 0px 20px;
 }
+
+li {
+  text-align: center
+}
+
+
 
 h1{
   color : #21897E;
