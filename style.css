@@ -36,6 +36,11 @@ body{
   text-align: center;
   width: 770px;
   font-size: 15px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-thin{
+  width: 450px;
 }
 
 .img-circle {
@@ -53,16 +58,16 @@ body{
 
 
 h1{
-  color : #21897E;
+  color : rgb(110, 30, 60);
   font-family : 'Roboto', sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   letter-spacing: 5px;
 }
 
 h2{
-  color : rgb(30, 30, 30);
+  color : rgb(60, 60, 60);
   font-family : 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 2px;
 }
 
@@ -74,7 +79,7 @@ h3{
 }
 
 a{
-  color : rgb(10, 10, 10);
+  color : rgb(110, 30, 60);
   text-decoration: none;
   opacity: 0.6;
 }
