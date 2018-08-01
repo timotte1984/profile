@@ -12,7 +12,13 @@ body{
   left: 0;
   top: 0;
   bottom: 0;
+  background-color: grey;
 }
+
+.list-no-bullet{
+  list-style-type: none;
+}
+
 
 #page-content {
   margin-left: 300px;
