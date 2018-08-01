@@ -8,20 +8,22 @@ body{
 
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 50px;
   left: 0;
   top: 0;
   bottom: 0;
   background-color: white;
+  font-size: 45px;
 }
 
 .list-no-bullet{
   list-style-type: none;
+  margin: 20px;
 }
 
 
 #page-content {
-  margin-left: 300px;
+  margin-left: 50px;
 }
 
 .card{
