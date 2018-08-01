@@ -12,12 +12,12 @@ body{
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: white;
+  background-color: grey;
 }
 
 .list-no-bullet{
   list-style-type: none;
-  padding-left: 0px;
+  padding-left: 5px;
 }
 
 #sidebar a {
