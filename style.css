@@ -16,12 +16,11 @@ body{
 
 .list-no-bullet{
   list-style-type: none;
-  margin: 15px;
+  padding-left: 15px;
 }
 
 #sidebar a {
   font-size: 45px;
-  text-align: center
 }
 
 
