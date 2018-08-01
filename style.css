@@ -6,6 +6,18 @@ body{
   line-height: 24px ;*/
 }
 
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
 .card{
   background-color: #F08755;
   margin: 20px auto;

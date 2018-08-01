@@ -8,70 +8,92 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <br/>
-        <img src="images/me.jpg" width="250px" height="300px" class="img-circle">
+    <div id="sidebar">
+      <ul class="list-inline">
+        <li>
+          <a href="https://www.youtube.com/watch?v=fWNaR-rxAic">
+            <i class="fas fa-apple-alt"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=kffacxfA7G4">
+            <i class="fas fa-basketball-ball"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=09R8_2nJtjg">
+            <i class="fas fa-bicycle"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div class="container">
+        <div class="card">
+          <br/>
+          <img src="./images/me.jpg" width="250px" height="300px" class="img-circle">
 
-        <h1>Camille Mottet</h1>
-        <h2>Actuel Explorer // Futur Programmer </h2>
-      </div>
-      <div class="card">
-        <h3> Biographie </h3>
-        <p>
-          Je suis venu au monde le 10 avril 2018. <br/>
-          J'habite à Arras avec mes parents. <br/>
-          J'aime me balader en poussette avec mes jouets, mon bob et mes lunettes.
-        </p>
+          <h1>Camille Mottet</h1>
+          <h2>Actuel Explorer // Futur Programmer </h2>
+        </div>
+        <div class="card" id="bio">
+          <h3> Biographie </h3>
+          <p>
+            Je suis venu au monde le 10 avril 2018. <br/>
+            J'habite à Arras avec mes parents. <br/>
+            J'aime me balader en poussette avec mes jouets, mon bob et mes lunettes.
+          </p>
 
+          <br/>
+        </div>
+        <div class="card" id="ref">
+          <h3> Mes Références </h3>
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.youtube.com/watch?v=fWNaR-rxAic">
+                <i class="fas fa-apple-alt"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=kffacxfA7G4">
+                <i class="fas fa-basketball-ball"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=09R8_2nJtjg">
+                <i class="fas fa-bicycle"></i>
+              </a>
+            </li>
+          </ul>
         <br/>
+        </div>
+        <div class="card" id="details">
+          <h3> Quelques détails </h3>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="images/car.jpg" width="250px" height="150px">
+                </td>
+                <td>
+                    Mes parents ont acheté une grosse voiture : Un renault Traffic. Voyager avec moi demande d'emmener beaucoup de matériel !
+                </td>
+              </tr>
+              <tr>
+                <td> <img src="images/duck.jpg" width="125px" height="150px"></td>
+                <td>
+                  Après ma naissance, j'ai rapidement découvert l'eau. C'est cool l'eau pour se baigner ! Mes parents ajoutent des objets autour de moi pendant que je me baigne mais pour l'instant je ne sais pas quoi en faire.
+                </td>
+              </tr>
+                <td> <img src="images/montain.jpg" width="125px" height="150px"></td>
+                <td>
+                  Malgré mon jeune âge, je suis déjà un montagnard ! La mer de glace n'a plus de secret pour moi !
+                </td>
+            </tbody>
+          </table>
+        </div>
       </div>
-      <div class="card">
-        <h3> Mes Références </h3>
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.youtube.com/watch?v=fWNaR-rxAic">
-              <i class="fas fa-apple-alt"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/watch?v=kffacxfA7G4">
-              <i class="fas fa-basketball-ball"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/watch?v=09R8_2nJtjg">
-              <i class="fas fa-bicycle"></i>
-            </a>
-          </li>
-        </ul>
-      <br/>
-      </div>
-      <div class="card">
-        <h3> Quelques détails </h3>
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <img src="images/car.jpg" width="250px" height="150px">
-              </td>
-              <td>
-                  Mes parents ont acheté une grosse voiture : Un renault Traffic. Voyager avec moi demande d'emmener beaucoup de matériel !
-              </td>
-            </tr>
-            <tr>
-              <td> <img src="images/duck.jpg" width="125px" height="150px"></td>
-              <td>
-                Après ma naissance, j'ai rapidement découvert l'eau. C'est cool l'eau pour se baigner ! Mes parents ajoutent des objets autour de moi pendant que je me baigne mais pour l'instant je ne sais pas quoi en faire.
-              </td>
-            </tr>
-              <td> <img src="images/montain.jpg" width="125px" height="150px"></td>
-              <td>
-                Malgré mon jeune âge, je suis déjà un montagnard ! La mer de glace n'a plus de secret pour moi !
-              </td>
-          </tbody>
-        </table>
-      </div>
+    </div>
   </body>
 </html>
 
