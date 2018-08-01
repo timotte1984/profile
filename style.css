@@ -21,6 +21,7 @@ body{
 
 #sidebar a {
   font-size: 45px;
+  text-align: center
 }
 
 
@@ -49,11 +50,6 @@ body{
   display: inline-block;
   padding: 0px 20px;
 }
-
-li {
-  text-align: center
-}
-
 
 
 h1{
