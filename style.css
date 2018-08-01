@@ -2,7 +2,6 @@ body{
   background-color: #F7C3AA;
   font-family : 'Open Sans', sans-serif;
   color : rgb(80, 80, 80);
-  font-size: 15px ;
 }
 
 #sidebar {
@@ -36,6 +35,7 @@ body{
   border-radius: 5px;
   text-align: center;
   width: 770px;
+  font-size: 15px;
 }
 
 .img-circle {
